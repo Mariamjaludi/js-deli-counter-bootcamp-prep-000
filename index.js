@@ -24,11 +24,10 @@ function nowServing(katzDeliLine){
         }
         else{
           sentence = sentence + `${temp}. ${currentLine[i]},`;
-        }  
+        }
       }
       return sentence;
     }
     else return "The line is currently empty."
-  
-  }
 
+  }
