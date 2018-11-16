@@ -26,7 +26,7 @@ function nowServing(katzDeliLine){
           sentence = sentence + `${temp}. ${currentLine[i]}.`
         }
         else{
-          sentence = sentence + `${temp}. ${currentLine[i]},`;
+          sentence = sentence + `${temp}. ${currentLine[i]}, `;
         }
       }
       return sentence;
