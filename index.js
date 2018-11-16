@@ -23,7 +23,7 @@ function nowServing(katzDeliLine){
       for (var i=0; i < currentLine.length; i++){
         var temp = i + 1;
         if (currentLine.length === 1 || i === currentLine.length -1){
-          sentence = sentence + `${temp}. ${currentLine[i]}.`
+          sentence = sentence + `${temp}. ${currentLine[i]}`
         }
         else{
           sentence = sentence + `${temp}. ${currentLine[i]}, `;
